@@ -1,0 +1,51 @@
+/* Global */
+
+* {
+  box-sizing: border-box; 
+}
+
+body{
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+
+}
+
+main{
+  min-height: 100vh
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p {
+  margin-block: 5px;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: 5px 0;
+}
+
+
+section {
+  min-height: 50vh;
+}
+
+
+/* Non-Global */
